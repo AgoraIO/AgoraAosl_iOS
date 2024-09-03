@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "aosl",
-            url: "https://github.com/AgoraIO/AgoraAosl_iOS/releases/download/v0.0.1/aosl.xcframework.zip", // 替换为你的目标 URL
+            url: "https://download.agora.io/sdk/release/aosl.xcframework.zip", // 替换为你的目标 URL
             checksum: "de7a5fa3ab3cafa527fc5fb4e36894856220dcf7f82a418ed9af0e0f79638416" // 替换为你的目标的校验和
         ),
     ]
