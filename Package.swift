@@ -10,9 +10,6 @@ let package = Package(
         .iOS(.v14), // 替换为你支持的平台
         .macOS(.v11)
     ],
-    products: [
-        .library(name: "aosl", targets: ["aosl"]), // 替换为你的产品信息
-    ],
     targets: [
         .binaryTarget(
             name: "aosl",
